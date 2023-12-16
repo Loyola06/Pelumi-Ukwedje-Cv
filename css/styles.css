@@ -1,0 +1,287 @@
+#firstsection {
+    background-color: black;
+    color: #fff;
+}
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+
+.nav-link {
+    padding: 0 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navtxt1 {
+    color: #FFFB73;
+    font-size: 1.8rem;
+    font-family: 'Audiowide';
+    padding-left: 32px;
+}
+
+.jui {
+    padding-right: 70px;
+}
+
+.nav-item {
+    padding-right: 40px;
+}
+
+
+.underline-hover {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.underline-hover:hover {
+    border-bottom: 2px solid #FFFB73; /* Adjust the color and thickness as needed */
+}
+
+
+/* this is the second section */
+#secondsection {
+ background-color: black;
+}
+
+.sctxt1 {
+    color: #FFFB73;
+    font-size: 1.2rem;
+    padding-top: 90px;
+}
+
+.sctxt2 {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.sctxt3 {
+    font-size: 1rem;
+    color: #fff;
+}
+.sctxt4 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.icon-container {
+    width: 35px; /* Adjust the size of the circular container */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Background color for the circle */
+    border-radius: 50%; /* Make it a circle */
+    border: 1px solid;
+    margin: 10px; /* Adjust spacing between icons */
+}
+
+.icon-container i {
+    color: #fff; /* Icon color */
+    font-size: 10px; /* Adjust the icon size as needed */
+}
+
+.icon-row {
+    display: flex;
+
+}
+    
+.image-container {
+     /* Adjust the size of the circular container */
+    padding-top: 20px;
+    overflow: hidden; /* Hide overflow content outside the circle */
+    border-radius: 100%; /* Make it a circle */
+/* Optional: Add a border to the circle */
+}
+
+.image-container img {
+border: 2px solid #FFFB73;
+     /* Make the image fill the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block;
+    border-radius: 100%; /* Ensure the image is also a circle */
+}
+
+/* this is the third section */
+
+#thirdsection {
+    background-color: black;
+    padding-top: 30px;
+}
+
+.scimage {
+    border: 3px solid #FFFB73;
+}
+
+.thdtxt1 {
+    font-size: 1.5rem;
+    color: #FFFB73;
+    font-family: 'Audiowide';
+    padding-top: 90px;
+}
+
+.texti p {
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: 'Balsamiq Sans';
+}
+
+td {
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* this is the fourth section */
+#fourthsection {
+    text-align: center;
+    background-color: black;
+    
+}
+
+#fourthsection h1 {
+    color: #FFFB73;
+    padding-top: 30px;
+    font-family: 'Audiowide';
+}
+#fourthsection p {
+    color: #fff;
+    font-family: 'Balsamiq Sans';
+    font-size: 1.1rem;
+}
+
+.dotted-line {
+    width: 10%;
+    margin: 0 auto;
+    border-top: dotted #FFFB73;
+    padding-bottom: 30px;
+    
+}
+
+.card-body {
+    background-color: black;
+}
+
+.compi {
+    color: #FFFB73;
+}
+.compi:hover {
+    color: #FFB534;
+} 
+.card-text {
+    font-size: 1.4rem;
+    font-family: 'Audiowide';
+    color: #FFFB73;
+}
+.ftxt1 {
+    font-size: 0.8rem;
+    font-family: 'Balsamiq Sans';
+
+}
+
+.iki {
+    margin-left: 50%;
+}
+
+/* this is the fifth section */
+
+#fifthsection {
+    background-color: black;
+    padding-top: 30px;
+    text-align: center;
+}
+#fifthsection h1 {
+    color: #FFFB73;
+    font-family: 'Audiowide';
+    font-size: 1.5rem;
+}
+
+#fifthsection p {
+    color: #fff;
+    font-family: 'Balsamiq Sans';
+    font-size: 1.2rem;
+}
+
+/* this is the sixth section */
+
+#sixthsection {
+    background-color: black;
+    text-align: center;
+}
+
+#sixthsection h1 {
+    color: #FFFB73;
+}
+
+.cli1 {
+    background-color: beige;
+    padding-bottom: 20px;
+
+}
+
+.cli1 img {
+    padding-top: 25px;
+}
+
+.scd {
+    padding-top: 25px;
+}
+.scd h2  {
+    color: black;
+    font-size: 1.2rem;
+    padding-top: 12px;
+
+}
+
+.scd h3 {
+    color: #FFFB73;
+    font-size: 1.5rem;
+    background-color: black;
+}
+
+/* this is the last section */
+#lastsection {
+    background-color: grey;
+    padding-top: 30px;
+    padding-bottom: 2px;
+
+}
+
+.lastsection h3 {
+    font-family: 'Audiowide';
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 750px) { 
+    .navbar-toggler {
+        margin-right: 15px;
+        font-size: 1.8rem;
+  
+        
+    }
+    .scimage {
+        width: 300px;
+        
+    }
+
+    .dotted-line { 
+        padding-bottom: 30px;
+    }
+
+    .iki {
+        margin-left: 15%;
+    }
+
+    .ik2 {
+        margin-left: 15%;
+    }
+}
