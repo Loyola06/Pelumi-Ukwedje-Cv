@@ -224,7 +224,7 @@ td {
 }
 
 .cli1 {
-    background-color: beige;
+    background-color: black;
     padding-bottom: 20px;
 
 }
@@ -234,6 +234,7 @@ td {
 }
 
 .scd {
+    background-color: #fff;
     padding-top: 25px;
 }
 .scd h2  {
@@ -251,17 +252,48 @@ td {
 
 /* this is the last section */
 #lastsection {
-    background-color: grey;
+    background-color: #F7E987;
     padding-top: 30px;
     padding-bottom: 2px;
+    text-align: center;
 
 }
 
 .lastsection h3 {
     font-family: 'Audiowide';
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 @media screen and (max-width: 750px) { 
+    .navbar-toggler {
+        margin-right: 15px;
+        font-size: 1.8rem;
+  
+        
+    }
+    .scimage {
+        width: 300px;
+        
+    }
+
+    .dotted-line { 
+        padding-bottom: 30px;
+    }
+
+    .iki {
+        margin-left: 10%;
+    }
+
+    .ik2 {
+        margin-left: 10%;
+    }
+
+    .image {
+     width: 50px;
+    }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 850px) { 
+
     .navbar-toggler {
         margin-right: 15px;
         font-size: 1.8rem;
